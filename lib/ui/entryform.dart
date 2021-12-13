@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:crud_sqflite/models/content.dart';
+import 'package:crud_sqliteback1/models/content.dart';
 
 class EntryForm extends StatefulWidget {
   final Content content;

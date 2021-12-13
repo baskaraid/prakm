@@ -4,7 +4,7 @@ import 'dart:async';
 import 'dart:io';
 //bekerja pada file dan directory
 import 'package:path_provider/path_provider.dart';
-import 'package:crud_sqflite/models/content.dart';
+import 'package:crud_sqliteback1/models/content.dart';
 //pubspec.yml
 
 //kelass Dbhelper
@@ -25,7 +25,7 @@ class DbHelper {
 
   //untuk menentukan nama database dan lokasi yg dibuat
     Directory directory = await getApplicationDocumentsDirectory();
-    String path = directory.path + 'mobilenih.db';
+    String path = directory.path + 'employeeeee.db';
 
    //create, read databases
     var todoDatabase = openDatabase(path, version: 1, onCreate: _createDb);

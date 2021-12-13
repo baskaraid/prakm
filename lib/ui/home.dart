@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:crud_sqflite/ui/entryform.dart';
-import 'package:crud_sqflite/models/content.dart';
-import 'package:crud_sqflite/helpers/dbhelper.dart';
+import 'package:crud_sqliteback1/ui/entryform.dart';
+import 'package:crud_sqliteback1/models/content.dart';
+import 'package:crud_sqliteback1/helpers/dbhelper.dart';
 import 'package:sqflite/sqflite.dart';
 //untuk memanggil fungsi yg terdapat di daftar pustaka sqflite
 import 'dart:async';
@@ -60,9 +60,6 @@ class HomeState extends State<Home> {
             //ini untuk tampilan bagian judul
             leading: Image.network(
               this.contentList[index].foto,
-              width: 100.0,
-              height: 200.0,
-              fit: BoxFit.cover,
             ),
             //ini untuk tampilan bagian foto
             title: Text(
